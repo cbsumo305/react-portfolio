@@ -106,8 +106,8 @@ header {
     width: 100%;
 }
 
-header .content-wrapper { 
-    padding: 0 20px 80px 0;
+header .content-wrapper {
+    padding: 0 20px 80px 20px;
 }
 
 header nav {
