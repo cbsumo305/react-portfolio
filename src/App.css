@@ -151,6 +151,7 @@ header nav li:hover {
 
 header p {
     margin: 15px 0;
+    text-align: center;
 }
 
 header p:last-child {
@@ -205,14 +206,17 @@ h1 span {
 }
 
 .project figure {
-    box-shadow: 5px 10px 10px #afafaf;
-    max-width: 90%;
-    max-height: 300px;
+/*    box-shadow: 5px 10px 10px #afafaf;
+*/  max-width: 90%;
     height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: baseline;
+}
+
+.project img {
+    box-shadow: 5px 10px 10px #afafaf;
 }
 
 .project h4 {
