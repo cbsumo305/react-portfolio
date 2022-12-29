@@ -28,11 +28,11 @@ const projects = [
     },
     {
         id: 3,
-        title: "",
+        title: "Unplugged Retreat",
         link: "",
         thumbnail: "",
         skills: ["ES6", "JSX"],
-        tools: ["CodeSandbox"],
+        tools: ["GitHub", "Photoshop"],
         description: ""
     },
     {
@@ -47,3 +47,9 @@ const projects = [
 ];
 
 export default projects;
+
+//Build a 3 - page responsive website from a design comp that adapts to mobile, tablet, and desktop screens.
+
+    //Skills: CSS3, Flexbox, HTML5, Media Queries, Responsive Typography
+
+//Tools: GitHub, Photoshop, Text editors

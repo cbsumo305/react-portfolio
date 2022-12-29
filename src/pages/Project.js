@@ -9,7 +9,7 @@ const Project = props => {
         <article className="project" key={props.project.id}>
 
             <figure>
-                <img alt="project-image" src={props.project.thumbnail} />
+                <img alt={props.project.title} src={props.project.thumbnail} />
             </figure>
 
             <h4>{props.project.title}</h4>
@@ -18,7 +18,7 @@ const Project = props => {
             <p><strong>Skills:</strong> {props.project.skills.join(", ")}</p>
             <p><strong>Tools:</strong> {props.project.tools.join(", ")}</p>
 
-            <a href={ props.project.link } target="_blank">Live Page</a>
+            <a href={props.project.link} target="_blank">Live Page</a>
         </article>
 
     )
